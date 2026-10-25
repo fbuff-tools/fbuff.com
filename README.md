@@ -17,6 +17,13 @@ No signup, no uploads. Every tool processes your files and data locally with web
 - [How to Write a Check](https://fbuff.com/tools/check-writing-helper/): turns an amount into words, with cents, and shows where each line goes.
 - [Shipping Label Cropper](https://fbuff.com/tools/shipping-label-cropper/): crop a full-page shipping label PDF to 4x6 for a thermal printer.
 
+## Developer and security
+- [HTTP2Shell Checker](https://fbuff.com/tools/http2shell-checker/): is your Node.js, Bun, Python Brotli or libbrotli affected by CVE-2026-111497? Script and fixed versions: [fbuff-tools/http2shell-checker](https://github.com/fbuff-tools/http2shell-checker).
+- [PHP2Shell Checker](https://fbuff.com/tools/php2shell-checker/): paste php -v or phpinfo() to check CVE-2026-109618 and CVE-2026-109619. Script and fixed packages: [fbuff-tools/php2shell-checker](https://github.com/fbuff-tools/php2shell-checker).
+
+## Cars and science
+- [Downforce Calculator](https://fbuff.com/tools/downforce-calculator/): how much downforce, fan suction or thrust a car needs to drive upside down, like the 2026 Tesla Roadster.
+
 ## Popular tools
 - [QR Code Generator](https://fbuff.com/tools/qr-generator/): links, text and Wi-Fi, with a logo and colors. Static codes that never expire.
 - [Image Compressor](https://fbuff.com/tools/image-compressor/): compress JPG, PNG and WebP to a target size such as 100 KB.
