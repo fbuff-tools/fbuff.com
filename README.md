@@ -18,6 +18,9 @@ No signup, no uploads. Every tool processes your files and data locally with web
 - [Shipping Label Cropper](https://fbuff.com/tools/shipping-label-cropper/): crop a full-page shipping label PDF to 4x6 for a thermal printer.
 
 ## Developer and security
+Each security page explains what causes the bug before how to check and fix it.
+
+- [CVE-2026-98432 Checker](https://fbuff.com/tools/cve-2026-98432-checker/): the Linux IPv4 TCP use-after-free (CVSS 9.8) that Anthropic exploited over MPTCP. What causes it, which servers are at risk, how to patch or harden. Script: [fbuff-tools/cve-2026-98432-checker](https://github.com/fbuff-tools/cve-2026-98432-checker).
 - [HTTP2Shell Checker](https://fbuff.com/tools/http2shell-checker/): is your Node.js, Bun, Python Brotli or libbrotli affected by CVE-2026-111497? Script and fixed versions: [fbuff-tools/http2shell-checker](https://github.com/fbuff-tools/http2shell-checker).
 - [KSMBD Exposure Checker](https://fbuff.com/tools/ksmbd-checker/): is a Linux server running KSMBD and open to ZDI-CAN-33774 / ZDI-CAN-33549? Script and mitigations: [fbuff-tools/ksmbd-checker](https://github.com/fbuff-tools/ksmbd-checker).
 - [DarkSword iPhone Check](https://fbuff.com/tools/darksword-check/): type your iOS version to see if your iPhone is open to DarkSword or P7 DarkSword spyware and which update fixes it.
@@ -32,7 +35,7 @@ No signup, no uploads. Every tool processes your files and data locally with web
 - [Barcode Generator](https://fbuff.com/tools/barcode-generator/): Code 128, EAN-13, EAN-8, UPC-A, PDF417.
 - [2FA Code Generator](https://fbuff.com/tools/2fa-code/): TOTP codes from a secret key.
 
-[All 95+ tools →](https://fbuff.com/tools/)
+[All 110 tools →](https://fbuff.com/tools/)
 
 ## How it works
 A static Next.js site on Cloudflare Pages with no backend. Heavy libraries (PDF, barcode, image processing) load only when a tool needs them.
