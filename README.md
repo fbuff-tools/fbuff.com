@@ -21,6 +21,8 @@ No signup, no uploads. Every tool processes your files and data locally with web
 ## Developer and security
 Each security page explains what causes the bug before how to check and fix it.
 
+- [NGINX2Root Checker](https://fbuff.com/tools/nginx2root-checker/): is your nginx open to the HTTP/2 RCE flaws CVE-2026-123007 and CVE-2026-123633? Fixed in 1.30.7 / 1.31.9; how to turn HTTP/2 off until you upgrade. Script: [fbuff-tools/nginx2root-checker](https://github.com/fbuff-tools/nginx2root-checker).
+- [Java2Shell Checker](https://fbuff.com/tools/java2shell-checker/): is your Java affected by Java2Shell / Java4Shell (CVE-2026-114938), the HotSpot AVX-512 Base64 heap overflow? Fixed versions and the workaround flag. Script: [fbuff-tools/java2shell-checker](https://github.com/fbuff-tools/java2shell-checker).
 - [Chrome Zero-Day Check](https://fbuff.com/tools/chrome-zero-day-check/): is your Chrome patched against CVE-2026-125350, the zero-day exploited in attacks? Safe version numbers and how to update and relaunch.
 - [SSHole Checker](https://fbuff.com/tools/sshole-checker/): is an Alpine Linux server open to the OpenSSH password bypass CVE-2026-123158? Fixed openssh package for each branch and how to turn password logins off.
 - [CVE-2026-98432 Checker](https://fbuff.com/tools/cve-2026-98432-checker/): the Linux IPv4 TCP use-after-free (CVSS 9.8) that Anthropic exploited over MPTCP. What causes it, which servers are at risk, how to patch or harden. Script: [fbuff-tools/cve-2026-98432-checker](https://github.com/fbuff-tools/cve-2026-98432-checker).
@@ -33,6 +35,7 @@ Each security page explains what causes the bug before how to check and fix it.
 - [Downforce Calculator](https://fbuff.com/tools/downforce-calculator/): how much downforce, fan suction or thrust a car needs to drive upside down, like the 2026 Tesla Roadster.
 
 ## Popular tools
+- [JSON Path Finder](https://fbuff.com/tools/json-path-finder/): click any value in a big JSON response to copy its exact JSONPath. CLI: [fbuff-tools/json-path-finder](https://github.com/fbuff-tools/json-path-finder).
 - [QR Code Generator](https://fbuff.com/tools/qr-generator/): links, text and Wi-Fi, with a logo and colors. Static codes that never expire.
 - [Image Compressor](https://fbuff.com/tools/image-compressor/): compress JPG, PNG and WebP to a target size such as 100 KB.
 - [Barcode Generator](https://fbuff.com/tools/barcode-generator/): Code 128, EAN-13, EAN-8, UPC-A, PDF417.
